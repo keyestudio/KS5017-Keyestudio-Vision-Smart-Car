@@ -1,7 +1,7 @@
 
 .. toctree::
    :maxdepth: 3
-   :caption: keyestudio docs
+   :caption: KS5017 Keyestudio Vision Smart Car
 
    README.md
    docs/keyestudio/index
