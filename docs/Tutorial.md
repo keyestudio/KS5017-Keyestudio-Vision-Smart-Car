@@ -59,25 +59,37 @@ Operating temperature: –10 to +65 degrees Celsius
 
 The assembly of the video car is very simple, you only need to assemble the directional wheel and wheels.
 
-Step 1: Fix the copper pillars to the driver board of the video car with screws.
+Step 1: Fix the M3x8MM copper pillars to the directional wheel with screws.
 
-​     ![1-1](./media/1edcac60eca02c87557b39bdb44cbfcd.gif)
+![install1](./media/82ee634d737ccf7ad07c42318fcb057c.gif)
 
-Step 2: Fix the directional wheel to the copper pillars with screws, and mind the direction of the directional wheel.
+Step 2: Fix the directional wheel to the driver board of the car with M3x20+6MM copper pillars.
 
-![1-2](./media/26d7332bd5feeef2e8e4169ab5f245eb.gif)
+![install2](./media/3265ced44416feedc3ee18d3dd788a6e.gif)
 
 Step 3: Assemble the wheels onto the motor. Please note that the D-shaped slot of the wheel must be consistent with the one on the motor.
 
-![1-3)](./media/c12546e5500827be014726058077d4db.gif)
+![install3](./media/3d6bcf70cf3fdefbfb059df5c7433513.gif)
 
-Step 4: Tear off the double-sided tape under the camera base and assemble it on the ESP32-CAM card slot so that it supports the camera at 90 degrees.
+Step 4: Remove the protective film from the acrylic board.
+
+![7040258789f2926c2c1ce0aca2b5c019](./media/2a88ed8b5ce064a0fd197852814b4e49.jpg)
+
+Step 5: After the battery is assembled (note: the positive and negative poles of the battery), then fasten it to the M3x20+6MM copper pillars with screws.
+
+![install4](./media/6157f61d4b3b6eed2aa10a320dbace6e.gif)
+
+Step 6:Tear off the double-sided tape under the camera base and assemble it on the ESP32-CAM card slot so that it supports the camera at 90 degrees.
 
 ![asdsafa45555](./media/b2d816cedc06f6219cd9c6abc4e66a14.png)
 
-Step 5: Plug the ESP32-CAM development board into the car motor driver board, then the video car is successfully assembled.
+Step 7: Plug the ESP32-CAM development board into the car motor driver board, then the video car is successfully assembled.
 
-![1-4](./media/183173929ef7c0d44064fd4558a12759.gif)     
+![install5](./media/df5400c9a0e5f249ba58452468ab3b5f.gif)
+
+
+
+​     
 
 ## 2.ESP32-CAM Mainboard
 
