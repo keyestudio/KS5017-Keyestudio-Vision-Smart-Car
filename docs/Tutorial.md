@@ -1,23 +1,23 @@
 # Keyestudio Vision Smart Car
 
-![_DSC0007](./media/a2f4191520d68d41a0cfe818423f8baa.png)
+![_DSC0007](./media/_DSC0007.png)
 
 ## 1. Kit List
 
 |  #   |                 Picture                  |                 Components                  | QTY  |
 | :--: | :--------------------------------------: | :-----------------------------------------: | :--: |
-|  1   | ![img](./media/b1d3f25d02b7a1be807aba7745c1586f.jpg) |                  ESP32-CAM                  |  1   |
-|  2   | ![img](./media/0c1e6735671bdb00785411ad5ea64698.jpg) |             Motor Driver Board              |  1   |
-|  3   | ![img](./media/c00efce9bd69a339275972a647085d62.jpg) |                    Wheel                    |  2   |
-|  4   |         ![img](./media/6ddf4c1de23c109b06ab6fb6e3535b91.jpg)         |               Camera Bracket                |  1   |
-|  5   |         ![img](./media/0a2091a1686d062def021d7929bded8b.jpg)         |                  USB Cable                  |  1   |
-|  6   |         ![img](./media/eea66209735811fc1f14d7f80f651f68.jpg)         |              Directional Wheel              |  1   |
-|  7   | ![img](./media/83c10afe35bee67ca6628a33cfefa193.jpg) |        M3*8 Dual-pass Copper Pillar         |  2   |
-|  8   | ![img](./media/14bc02b803d4d6b9af557bd1bc5d1b99.jpg) | M3*20+6MM Single-pass Copper Pillar |  2   |
-|  9   | ![img](./media/2a702fbf8e6c2725e5a32922d44f59b4.jpg) |            M3*6 Flat Head Screw             |  4   |
-|  10   | ![img](./media/eef3fc2beb72c96a4634e5b8759c465f.jpg) |             3*83MM Screwdriver              |  1   |
-|  11  | ![img](./media/a893c9705b5c701e9b1ee15dcf31d479.jpg) | 40*35mm M3 Acrylic Board |  1   |
-|  12  | ![img](./media/2880959ff4b380b9eabecd5277976f8c.jpg) |      16340 700mAh Lithium Battery (not provide)      |  1   |
+|  1   | ![img](./media/wps1-1706065650849-1.jpg) |                  ESP32-CAM                  |  1   |
+|  2   | ![img](./media/wps2-1706065685446-3.jpg) |             Motor Driver Board              |  1   |
+|  3   | ![img](./media/wps3-1706065716210-5.jpg) |                    Wheel                    |  2   |
+|  4   |         ![img](./media/wps4.jpg)         |               Camera Bracket                |  1   |
+|  5   |         ![img](./media/wps5.jpg)         |                  USB Cable                  |  1   |
+|  6   |         ![img](./media/wps6.jpg)         |              Directional Wheel              |  1   |
+|  7   | ![img](./media/wps4-1706151192121-4.jpg) |        M3*8 Dual-pass Copper Pillar         |  2   |
+|  8   | ![img](./media/wps1-1708225434193-1.jpg) | M3*20+6MM Single-pass Copper Pillar |  2   |
+|  9   | ![img](./media/wps5-1706151210616-6.jpg) |            M3*6 Flat Head Screw             |  4   |
+|  10   | ![img](./media/wps6-1706151224654-8.jpg) |             3*83MM Screwdriver              |  1   |
+|  11  | ![img](./media/wps2-1708225490214-3.jpg) | 40*35mm M3 Acrylic Board |  1   |
+|  12  | ![img](./media/wps3-1708225574870-5.jpg) |      16340 700mAh Lithium Battery (not provide)      |  1   |
 
 
 
@@ -61,31 +61,31 @@ The assembly of the video car is very simple, you only need to assemble the dire
 
 Step 1: Fix the M3x8MM copper pillars to the directional wheel with screws.
 
-![install1](./media/82ee634d737ccf7ad07c42318fcb057c.gif)
+![install1](./media/install1.gif)
 
 Step 2: Fix the directional wheel to the driver board of the car with M3x20+6MM copper pillars.
 
-![install2](./media/3265ced44416feedc3ee18d3dd788a6e.gif)
+![install2](./media/install2.gif)
 
-Step 3: Assemble the wheels onto the motor. Please note that the D-shaped slot of the wheel must be consistent with the one on the motor.
+Step 3: Assemble the wheel onto the motor. Please note that the D-shaped slot of the wheel must be consistent with the one on the motor.
 
-![install3](./media/3d6bcf70cf3fdefbfb059df5c7433513.gif)
+![install3](./media/install3.gif)
 
 Step 4: Remove the protective film from the acrylic board.
 
-![7040258789f2926c2c1ce0aca2b5c019](./media/2a88ed8b5ce064a0fd197852814b4e49.jpg)
+![7040258789f2926c2c1ce0aca2b5c019](./media/7040258789f2926c2c1ce0aca2b5c019.jpg)
 
 Step 5: After the battery is assembled (note: the positive and negative poles of the battery), then fasten it to the M3x20+6MM copper pillars with screws.
 
-![install4](./media/6157f61d4b3b6eed2aa10a320dbace6e.gif)
+![install4](./media/install4.gif)
 
 Step 6:Tear off the double-sided tape under the camera base and assemble it on the ESP32-CAM card slot so that it supports the camera at 90 degrees.
 
-![asdsafa45555](./media/b2d816cedc06f6219cd9c6abc4e66a14.png)
+![asdsafa45555](./media/asdsafa45555.png)
 
 Step 7: Plug the ESP32-CAM development board into the car motor driver board, then the video car is successfully assembled.
 
-![install5](./media/df5400c9a0e5f249ba58452468ab3b5f.gif)
+![install5](./media/install5.gif)
 
 
 
@@ -93,7 +93,7 @@ Step 7: Plug the ESP32-CAM development board into the car motor driver board, th
 
 ## 2.ESP32-CAM Mainboard
 
-(1). Introduction
+### (1). Introduction
 
 ESP32-CAM is a development board based on the ESP32 chip, which integrates a camera module for building camera and video applications. The ESP32 chip is a low-power, high-performance Wi-Fi and Bluetooth dual-module solution with rich hardware resources and powerful software support.
 
@@ -111,7 +111,7 @@ The ESP32-CAM development board is widely used in the IoT, smart homes, monitori
 
 
 
-(2). Parameters
+### (2). Parameters
 
 1. Smallest 802.11b/g/n Wi-Fi BT SoC module
 
@@ -141,9 +141,9 @@ The ESP32-CAM development board is widely used in the IoT, smart homes, monitori
 
 
 
-(3). ESP32-CAM Pinout
+### (3). ESP32-CAM Pinout
 
-![2-3-1](./media/05b9f2a56074b969c11815a05b953250.png)
+![2-3-1](./media/2-3-1.png)
 
 
 
@@ -181,7 +181,7 @@ We use the IIC method(use two pins) to control the motor. The specific principle
 
 
 
-![图 (1)](./media/4f2bdd571154b2cd1edcfdcae68b77b2.jpg)
+![图 (1)](./media/321321321.jpg)
 
 **(2). Parameters**
 
@@ -196,77 +196,77 @@ We use the IIC method(use two pins) to control the motor. The specific principle
 
 **(3). Pinout**
 
-![ESP32-CAM-Motor](./media/ab8ab6b62a6dfdb0c0ffb702c135e231.png)
+![ESP32-CAM-Motor](./media/ESP32-CAM-Motor.png)
 
 **(4). Schematic Diagram**
 
-![Sheet1-1](./media/b25f72ff36a4395e9e082575f6e6f3d0.png)
+![Sheet1-1](./media/Sheet1-1.png)
 
 ## 4. About Arduino IDE
 
-(1).Download Arduino IDE
+### (1).Download Arduino IDE
 
-A.Windows System
+#### A.Windows System
 
 Step 1: You could download Arduino IDE from the official website：[https://www.arduino.cc/](https://www.arduino.cc/)
 
 Step 2: Enter the link and click **SOFTWARE**:
 
-![4-1-1](./media/e50c6905914a699077847263d7572f7e.png)
+![4-1-1](./media/4-1-A-1.png)
 
 Step 3: There are various versions of IDE for Arduino. Just download a version compatible with your system. Here we will show you how to download and install the windows version of Arduino IDE. 
 
 Tap “**Windows** win 10 and newer 64 bits” 
 
-![image-20240110132702393](./media/e60fb31fed4f28bb20be3c321b365f01.png)
+![image-20240110132702393](./media/4-1-A-2.png)
 
 Step 4: You just need to click **JUST DOWNLOAD**.
 
-![image-20240110133136491](./media/78311904423e142c19863ec036c85afa.png)
+![image-20240110133136491](./media/4-1-A-3.png)
 
 Step 5: After the download is complete, we will get the .exe file, as shown below:
 
-![image-20240110134400456](./media/340e6bfabefa58bb692e929831bcd60e.png)
+![image-20240110134400456](./media/4-1-A-4.png)
 
 Step 6：Right-click “arduino-ide_2.2.1_Windows_64bit.exe” and tap “**Open**”.
 
-![8e51243ee6d572cb42abe7e1ed03b02b](./media/8e51243ee6d572cb42abe7e1ed03b02b.png)
+![8e51243ee6d572cb42abe7e1ed03b02b](./media/4-1-A-5.png)
 
 Step 7：Tap “**I Agree**”.
 
-![52bdc1e74fcb4afc269f98438655a0c9](./media/52bdc1e74fcb4afc269f98438655a0c9.png)
+![52bdc1e74fcb4afc269f98438655a0c9](./media/4-1-A-6.png)
 
 Step 8：Tap “**Next**”
 
-![6f8da7951e9095f74e5e8646c8ac4964](./media/6f8da7951e9095f74e5e8646c8ac4964.png)
+![6f8da7951e9095f74e5e8646c8ac4964](./media/4-1-A-7.png)
 
 Step 9：First click ① "**Browse..**" to set the installation path of Arduino IDE, then click ② "**Install**".
 
-![5df602d0079a781b847e06618f05b07d](./media/5df602d0079a781b847e06618f05b07d.png)
+![5df602d0079a781b847e06618f05b07d](./media/4-1-A-8.png)
 
 Step 10：Wait for installation to complete.
 
-![e82f43e5455ad703473c3eed94eadaa3](./media/e82f43e5455ad703473c3eed94eadaa3.png)
+![e82f43e5455ad703473c3eed94eadaa3](./media/4-1-A-9.png)
 
 Step 11：Click “**Run Arduino IDE**” and “**Finish**”.
 
-![7b6cfc69ac09809ab551c31093614378](./media/7b6cfc69ac09809ab551c31093614378.png)
+![7b6cfc69ac09809ab551c31093614378](./media/4-1-A-10.png)
 
-B. MAC System
+#### B. MAC System
 
 Just download a version compatible with your computer system.
 
-![image-20240110143230136](./media/2f809043bbcd79085dbcbe6db2cf18eb.png)
+![image-20240110143230136](./media/4-1-B-1.png)
 
-(2).Install ESP32 Development Environment
+### (2).Install ESP32 Development Environment
 
-A：Install it on Arduino IDE
+#### A：Install it on Arduino IDE
 
 <p style="color:red">The following is a Windows system tutorial, MAC system can refer to it</p>
 
 Typically, we cannot find ESP32 board from “Board” in “Tools”. Because we have not install this board on Arduino IDE yet. 
 
-![123-1698638335889-4](./media/4dd77d1fb0be43fb7d235c23d2f13039.png)
+![123-1698638335889-4](./media/4-2-A-1.png)
 
 Here are the procedures of ESP32 board installation:
 
@@ -274,29 +274,29 @@ Open Arduino IDE.
 
 Click “**File** ——>**Preferences**”
 
-![image-20240111154110083](./media/d54ad33a42e41af98ca1e67f549dfce4.png)
+![image-20240111154110083](./media/4-2-A-6.png)
 
 Copy the link of ESP32 board：“https://espressif.github.io/arduino-esp32/package_esp32_index.json” to Additional boards manager URLs and tap OK.
 
-![image-20240111155552488](./media/5a79dba1fdd18fc4c7ad2b9b16b7831d.png)
+![image-20240111155552488](./media/4-2-A-2.png)
 
 Click the icon of "Board Manager" to check for boards.
 
-![image-20240111155742209](./media/d743c4253119dd35503aef98fd544392.png)
+![image-20240111155742209](./media/4-2-A-3.png)
 
 In the search bar, type in ESP32 and search to install the latest version. Then you just need to wait a few minutes for the installation to complete. 
 
 **During installing, please ensure the stability of network. If it fails, please operate last step again to re-install it.**
 
-![image-20240111155925696](./media/00d2ffab528a3f907b40cf483841923f.png)
+![image-20240111155925696](./media/4-2-A-4.png)
 
 After installation, select the correct board model.
 
 <p style="color:red">Note: The development board used on the video car must be “AI Thinker ESP32-CAM”</p>
 
-![image-20240111160216761](./media/9944ed66b1b28981d2151db16b4a6957.png)
+![image-20240111160216761](./media/4-2-A-5.png)
 
-B：Download the provided offline installation package
+#### B：Download the provided offline installation package
 
 <p style="color:red">This method is suitable for unstable networks and slow online downloads, and can put the offline package on a USB flash drive to install the ESP32 development environment for more Arduino IDEs.</p>
 
@@ -306,21 +306,21 @@ Click the link to download the ESP32 offline installation package：[ESP32 Packa
 
 After the download is complete, unzip it and you will get a file named "**esp32_package_2.0.12_arduinome.exe**".
 
-![332c224abca5108481fd6a31a16b433d](./media/332c224abca5108481fd6a31a16b433d.png)
+![332c224abca5108481fd6a31a16b433d](./media/4-2-B-1.png)
 
-![image-20240110145330967](./media/ff3dac37c7380cb2e4883b8ce38beb13.png)
+![image-20240110145330967](./media/4-2-B-2.png)
 
 Tap “**Open**”.
 
-![image-20240110145537688](./media/f6bf8432a5963ce9a59e280700e30c6a.png)
+![image-20240110145537688](./media/4-2-B-3.png)
 
 Wait for the installation to complete, then restart the Arduino IDE to see the options for the ESP32 development board.
 
-![image-20240110145656434](./media/d8b0f6024d0339e0cb7220a9328d44fa.png)
+![image-20240110145656434](./media/4-2-B-4.png)
 
-![image-20240111160216761](./media/9944ed66b1b28981d2151db16b4a6957.png)
+![image-20240111160216761](./media/4-2-A-5.png)
 
-(3).Install the CH340 driver on your computer
+### (3).Install the CH340 driver on your computer
 
 (1).Windows System
 
@@ -330,11 +330,11 @@ Enter the link：[Install CH340 Driver on Windows System — Getting started wit
 
 Enter the link：[Install CH340 Driver on MAC System — Getting started with Arduino documentation (getting-started-with-arduino.readthedocs.io)](https://getting-started-with-arduino.readthedocs.io/en/latest/MacCH340.html)
 
-(4).Upload code to ESP32-CAM board via Arduino IDE
+### (4).Upload code to ESP32-CAM board via Arduino IDE
 
 **A. Arduino IDE Interface**
 
-![image-20230531113348119](./media/661b691e840407428760cc4f29e80d92.png)
+![image-20230531113348119](./media/image-20230531113348119.png)
 
 1. “File”: Including New Sketch, Open..., Sketchbook, Examples, Close, Save(Save as...), Preferences, Advanced..., etc.
 2. “Edit”: Including Copy, Paste, Auto Format, Increase/Decrease Font Size, etc. Commonly, you can use shortcuts to do these operations.
@@ -355,15 +355,15 @@ Enter the link：[Install CH340 Driver on MAC System — Getting started with Ar
 
 **B. Upload code**
 
-![46541645156](./media/b8359d2fbdf3158644e23e4b81e759fa.png)
+![46541645156](./media/46541645156.png)
 
 After selecting the development board, we need to select the COM port. After the development board installs the driver, a COM port will be displayed. If you don’t know which one to select, you can enter the device manager of your computer to check, as shown below: (If there are multiple COM ports and  you don’t know which one it is, you can unplug the development board and see which one disappears. Then plug in the development board and the missing COM port will be displayed again. If there is no COM, please check whether the development board driver is installed.)
 
-![wps11](./media/cc7b58c15299bf0ef8d74d32d9b6e280.jpg)
+![wps11](./media/4-3-1.jpg)
 
 As can be seen from the picture, our COM port is COM3. We select "Port" in the "Tools" and then select "COM3".
 
-![666666](./media/93c2214b84a40fcbaa3f9aaa0f4c3128.png)
+![666666](./media/4-3-2.png)
 
 After connecting the development board, then we need to add code, here we provide a sample code, the function of the code is to print "Hello Keyestudio!" every second in the serial monitor.
 
@@ -387,15 +387,15 @@ void loop() {
 }
 ```
 
-![image-20230531191328700-1704869009005-1](./media/7da0a8a0c75336e56f52969f93a923c7.png)
+![image-20230531191328700-1704869009005-1](./media/4-3-3.png)
 
-Tap![image-20230531164208065](./media/d850ef08c2fd6b92e762108775094160.png)to compile and upload the code. After the upload is successful, the prompts will appear, as shown in the figure:
+Tap![image-20230531164208065](./media/4-3-4.png)to compile and upload the code. After the upload is successful, the prompts will appear, as shown in the figure:
 
-![image-20230531191624712](./media/0fd6508fc47757578542ad0de5e3f60c.png)
+![image-20230531191624712](./media/4-3-5.png)
 
-Then tap![image-20230601084439425](./media/3a7eab031e133625ebf71f4a0c573912.png)to open the serial port monitor to set the baud rate to 9600, and you will see that the serial port printing the string "Hello Keyestudio!".
+Then tap![image-20230601084439425](./media/4-3-6.png)to open the serial port monitor to set the baud rate to 9600, and you will see that the serial port printing the string "Hello Keyestudio!".
 
-![232323233](./media/7e2da5f3274e8a132eae7b3745d424d3.png)
+![232323233](./media/4-3-7.png)
 
 1. “Toggle Autoscroll”: Set whether the print window follows printing
 
@@ -423,7 +423,7 @@ The video car is equipped with two 10mm headlights. We will control the two LEDs
 
 As can be seen from the schematic diagram, we connect the LED directly to the VCC of  5V, then we will use the triode Q1 as a switch. When the pin 1 of Q1 (IO12 pin of the ESP32-CAM) outputs high level, the pin 3 and pin 2 of Q1 are conducting (when the output is low level, pins 3 and 2 are not conducting), the VCC of 5V passes through the LED to the R13 current limiting resistor and then goes from pin 3 to pin 2 to GND to form a loop. (R15 is a current-limiting resistor, and R12 is a pull-down resistor to prevent the LED from being unstable when IO12 is in a high-impedance state).
 
-![image-20240125100853016](./media/2ff0d745a4bbdbff61403f0556781d78.png)
+![image-20240125100853016](./media/image-20240125100853016.png)
 
 **(3).Code**
 
@@ -489,7 +489,7 @@ After the code is uploaded successfully, the LEDs light up for 1s and turn off f
 
 A “breathing LED” is a phenomenon where an LED's brightness smoothly changes from dark to bright and back to dark, continuing to do so and giving the illusion of an LED“breathing. Thus how to control LED’s brightness? We need to use the PWM of ESP32 to achieve it.
 
-![image-20240113080822039](./media/5ef2cd2fb6e84190d6a016d93cc7b97c.png)
+![image-20240113080822039](./media/image-20240113080822039.png)
 
 **(2). Working Principle of PWM**
 
@@ -499,7 +499,7 @@ Analog signal are continuous signals in both time and value. On the contrary, a 
 
 However, digital signals can instantaneously change in value. This change is expressed in numbers as 1 and 0 (the basis of binary code). Their differences can be seen more easily when compared, as shown below:
 
-![img](./media/568efc8c70bb907bc61143fb981d9f54.jpg)
+![img](./media/wps1.jpg)
 
 **PWM：**
 
@@ -511,7 +511,7 @@ The longer the output of high levels last, the longer the duty cycle and the hig
 
 
 
-![imgimg](./media/30ee15f0a96403ba8046a4a0abcc2ab2.jpg)
+![imgimg](./media/wps2.jpg)
 
 The longer the PWM duty cycle is, the higher the output power will be. Therefore, we can use PWM to control the brightness of an LED or the speed of DC motor and so on. It is evident from the above that PWM is not real analog, and the effective value of the voltage is equivalent to the corresponding analog. Then we can control the output power of the LED and other output modules to achieve different effects. 
 
@@ -519,7 +519,7 @@ The longer the PWM duty cycle is, the higher the output power will be. Therefore
 
 On ESP32, the LEDC(PWM) controller has 16 separate channels, each of which can independently control frequency, duty cycle, and even accuracy. Unlike traditional PWM pins, the PWM output pins of ESP32 are configurable, with one or more PWM output pins per channel. The relationship between the maximum frequency and bit precision is shown in the following formula. 
 
-![img](./media/85563494a8ef3fdd7d313e481c6a9912.jpg)
+![img](./media/wps3.jpg)
 
 The maximum value of bit is 31. For example, generate a PWM with an 8-bit precision (28=256. Values range from 0 to 255) with a maximum frequency of 80,000,000/255 = 312,500Hz.）
 
@@ -709,7 +709,7 @@ Official link for Espressif：[https://www.espressif.com.cn/en/home](https://www
 
 <p style="color:red">A problem that often occurs when using the web version is that long-pressing the browser page will enter the recognition mode, so how should we solve it? If you need to move forward, first click the forward button and then press the left or right turn button while holding the forward button, so that you will not enter the recognition mode.</p>
 
-![OperationVideo](./media/03622c5aae633108883bd6807261d65a.gif)
+![OperationVideo](./media/OperationVideo.gif)
 
 **(3).Code**
 
@@ -892,11 +892,11 @@ const char* password = "88888888";  //Password. Leave blank for open network.
 
 1. The LEGO holes on both sides of the car's driver board can be used to assemble LEGO. 
 
-   ![eca9b65c4da479c8be039ea1308a9ed7](./media/76da6e8a32e02582fb788977ad191bb2.png)
+   ![eca9b65c4da479c8be039ea1308a9ed7](./media/eca9b65c4da479c8be039ea1308a9ed7.png)
 
 2. There are four GPIO ports for expanding sensors and  modules.
 
-![image-20240218132219456](./media/8e44215a95feb3241ed9f24d26a6c0b7.png)
+![image-20240218132219456](./media/image-20240218132219456.png)
 
 ## 10. Common Problems
 
