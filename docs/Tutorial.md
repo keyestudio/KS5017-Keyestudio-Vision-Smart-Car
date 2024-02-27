@@ -701,7 +701,7 @@ Official link for Espressif：[https://www.espressif.com.cn/en/home](https://www
 
 **Webpage introduction：**
 
-![Website Introduction1](./media/Website%20Introduction1.png)
+![Website Introduction1](./media/Website-Introduction1.png)
 
 
 
