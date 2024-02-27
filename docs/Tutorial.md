@@ -17,7 +17,7 @@
 |  9   | ![img](./media/wps5-1706151210616-6.jpg) |            M3*6 Flat Head Screw             |  4   |
 |  10   | ![img](./media/wps6-1706151224654-8.jpg) |             3*83MM Screwdriver              |  1   |
 |  11  | ![img](./media/wps2-1708225490214-3.jpg) | 40*35mm M3 Acrylic Board |  1   |
-|  12  | ![img](./media/wps3-1708225574870-5.jpg) |      16340 700mAh Lithium Battery (not provide)      |  1   |
+|  12  | ![img](./media/wps3-1708225574870-5.jpg) |      16340 700mAh Pointed Lithium Battery (not provide)      |  1   |
 
 
 
@@ -25,7 +25,7 @@
 
 The ESP32-CAM video car is a smart car based on the ESP32-CAM module. It has video transmission and remote control functions. The ESP32-CAM module is an IoT development board that integrates a camera and a Wi-Fi module, which is able to transmit images captured by the camera in real time. Combined with other electronic modules and components, a powerful video car can be built.
 
-What's more, it provides four GPIO ports for expanding sensors and  modules, and Lego holes on both sides of the driver board makes the car's gameplay more imaginative.
+What's more, it provides four GPIO ports for expanding sensors and  modules, and Lego holes on both sides of the driver board make the car's gameplay more imaginative.
 
 
 
