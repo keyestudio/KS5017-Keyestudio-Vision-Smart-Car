@@ -2,7 +2,7 @@
 
 ![_DSC0007](./media/_DSC0007.png)
 
-## 1. Kit List
+# 1. Kit List
 
 |  #   |                 Picture                  |                 Components                  | QTY  |
 | :--: | :--------------------------------------: | :-----------------------------------------: | :--: |
@@ -21,7 +21,7 @@
 
 
 
-## 2. Description   
+# 2. Description   
 
 The ESP32-CAM video car is a smart car based on the ESP32-CAM module. It has video transmission and remote control functions. The ESP32-CAM module is an IoT development board that integrates a camera and a Wi-Fi module, which is able to transmit images captured by the camera in real time. Combined with other electronic modules and components, a powerful video car can be built.
 
@@ -29,7 +29,7 @@ What's more, it provides four GPIO ports for expanding sensors and  modules, and
 
 
 
-## 3. Parameters
+# 3. Parameters
 
 USB voltage / charging voltage: 5V
 
@@ -43,7 +43,7 @@ Operating temperature: –10 to +65 degrees Celsius
 
 
 
-## 4. Features    
+# 4. Features    
 
 (1). The car integrates the download circuit of the ESP32-CAM development board into a motor driver board, which greatly improves the convenience of using the ESP32-CAM.
 
@@ -55,7 +55,7 @@ Operating temperature: –10 to +65 degrees Celsius
 
 
 
-## 1.Product Assembly
+# 1.Product Assembly
 
 The assembly of the video car is very simple, you only need to assemble the directional wheel and wheels.
 
@@ -91,9 +91,9 @@ Step 7: Plug the ESP32-CAM development board into the car motor driver board, th
 
 ​     
 
-## 2.ESP32-CAM Mainboard
+# 2.ESP32-CAM Mainboard
 
-### (1). Introduction
+## (1). Introduction
 
 ESP32-CAM is a development board based on the ESP32 chip, which integrates a camera module for building camera and video applications. The ESP32 chip is a low-power, high-performance Wi-Fi and Bluetooth dual-module solution with rich hardware resources and powerful software support.
 
@@ -111,7 +111,7 @@ The ESP32-CAM development board is widely used in the IoT, smart homes, monitori
 
 
 
-### (2). Parameters
+## (2). Parameters
 
 1. Smallest 802.11b/g/n Wi-Fi BT SoC module
 
@@ -141,7 +141,7 @@ The ESP32-CAM development board is widely used in the IoT, smart homes, monitori
 
 
 
-### (3). ESP32-CAM Pinout
+## (3). ESP32-CAM Pinout
 
 ![2-3-1](./media/2-3-1.png)
 
@@ -167,7 +167,7 @@ The ESP32-CAM development board is widely used in the IoT, smart homes, monitori
 
 
 
-## 3. Motor Driver Board Introduction
+# 3. Motor Driver Board Introduction
 
   **(1). Introduction**
 
@@ -202,11 +202,11 @@ We use the IIC method(use two pins) to control the motor. The specific principle
 
 ![Sheet1-1](./media/Sheet1-1.png)
 
-## 4. About Arduino IDE
+# 4. About Arduino IDE
 
-### (1).Download Arduino IDE
+## (1).Download Arduino IDE
 
-#### A.Windows System
+### A.Windows System
 
 Step 1: You could download Arduino IDE from the official website：[https://www.arduino.cc/](https://www.arduino.cc/)
 
@@ -252,15 +252,15 @@ Step 11：Click “**Run Arduino IDE**” and “**Finish**”.
 
 ![7b6cfc69ac09809ab551c31093614378](./media/4-1-A-10.png)
 
-#### B. MAC System
+### B. MAC System
 
 Just download a version compatible with your computer system.
 
 ![image-20240110143230136](./media/4-1-B-1.png)
 
-### (2).Install ESP32 Development Environment
+## (2).Install ESP32 Development Environment
 
-#### A：Install it on Arduino IDE
+### A：Install it on Arduino IDE
 
 <p style="color:red">The following is a Windows system tutorial, MAC system can refer to it</p>
 
@@ -296,7 +296,7 @@ After installation, select the correct board model.
 
 ![image-20240111160216761](./media/4-2-A-5.png)
 
-#### B：Download the provided offline installation package
+### B：Download the provided offline installation package
 
 <p style="color:red">This method is suitable for unstable networks and slow online downloads, and can put the offline package on a USB flash drive to install the ESP32 development environment for more Arduino IDEs.</p>
 
@@ -320,7 +320,7 @@ Wait for the installation to complete, then restart the Arduino IDE to see the o
 
 ![image-20240111160216761](./media/4-2-A-5.png)
 
-### (3).Install the CH340 driver on your computer
+## (3).Install the CH340 driver on your computer
 
 (1).Windows System
 
@@ -330,7 +330,7 @@ Enter the link：[Install CH340 Driver on Windows System — Getting started wit
 
 Enter the link：[Install CH340 Driver on MAC System — Getting started with Arduino documentation (getting-started-with-arduino.readthedocs.io)](https://getting-started-with-arduino.readthedocs.io/en/latest/MacCH340.html)
 
-### (4).Upload code to ESP32-CAM board via Arduino IDE
+## (4).Upload code to ESP32-CAM board via Arduino IDE
 
 **A. Arduino IDE Interface**
 
@@ -413,7 +413,7 @@ Then tap![image-20230601084439425](./media/4-3-6.png)to open the serial port mon
 
 Now, please return to the main tutorial to learn how to add library files to Arduino IDE, otherwise the IDE will report an error.
 
-## 5. Control the LEDs of the Car
+# 5. Control the LEDs of the Car
 
 **(1).Description**
 
@@ -483,7 +483,7 @@ After the code is uploaded successfully, the LEDs light up for 1s and turn off f
 
 ​	Official explanation link：[digitalWrite() - Arduino Reference](https://www.arduino.cc/reference/en/language/functions/digital-io/digitalwrite/)
 
-## 6. Control the Brightness of LEDs
+# 6. Control the Brightness of LEDs
 
 **(1).Description**
 
@@ -610,7 +610,7 @@ ledcWrite(channel, dutyCycle);
   
   For details, refer to the link：[for - Arduino Reference](https://www.arduino.cc/reference/en/language/structure/control-structure/for/)
 
-## 7. Motor Drive Mode
+# 7. Motor Drive Mode
 
 **(1).Description**
 
@@ -676,7 +676,7 @@ After the code is uploaded successfully, the car moves forward for 2s, goes back
 Official explanation link：[#include - Arduino Reference](https://www.arduino.cc/reference/en/language/structure/further-syntax/include/)
 
 
-## 8. Video Smart Car
+# 8. Video Smart Car
 
 **(1).Description**
 
@@ -888,7 +888,7 @@ const char* password = "88888888";  //Password. Leave blank for open network.
 ```
 
 
-## 9. Gameplay Expansion Ideas
+# 9. Gameplay Expansion Ideas
 
 1. The LEGO holes on both sides of the car's driver board can be used to assemble LEGO. 
 
@@ -898,7 +898,7 @@ const char* password = "88888888";  //Password. Leave blank for open network.
 
 ![image-20240218132219456](./media/image-20240218132219456.png)
 
-## 10. Common Problems
+# 10. Common Problems
 
 1. Select the wrong development board. Many ESP32 series are compatible but the internal library files are different. For example, when uploading the video car code, the development board selects "**ESP32 Dev Module"**, then you can upload the code successfully, but the code does not run. So for our video car, we must choose "**AI Thinker ESP32-CAM**".
 
