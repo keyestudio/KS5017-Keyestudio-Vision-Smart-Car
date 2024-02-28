@@ -2,7 +2,7 @@
 
 ![_DSC0007](./media/_DSC0007.png)
 
-# 1. Kit List
+## 1. Kit List
 
 |  #   |                 Picture                  |                 Components                  | QTY  |
 | :--: | :--------------------------------------: | :-----------------------------------------: | :--: |
@@ -21,7 +21,7 @@
 
 
 
-# 2. Description   
+## 2. Description   
 
 The ESP32-CAM video car is a smart car based on the ESP32-CAM module. It has video transmission and remote control functions. The ESP32-CAM module is an IoT development board that integrates a camera and a Wi-Fi module, which is able to transmit images captured by the camera in real time. Combined with other electronic modules and components, a powerful video car can be built.
 
@@ -29,7 +29,7 @@ What's more, it provides four GPIO ports for expanding sensors and  modules, and
 
 
 
-# 3. Parameters
+## 3. Parameters
 
 USB voltage / charging voltage: 5V
 
@@ -43,7 +43,7 @@ Operating temperature: –10 to +65 degrees Celsius
 
 
 
-# 4. Features    
+## 4. Features    
 
 (1). The car integrates the download circuit of the ESP32-CAM development board into a motor driver board, which greatly improves the convenience of using the ESP32-CAM.
 
