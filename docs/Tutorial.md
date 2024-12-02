@@ -427,8 +427,6 @@ As can be seen from the schematic diagram, we connect the LED directly to the VC
 
 **(3).Code**
 
-`Don't copy the code after downloading it, just open it. The library file and the code are in the same folder.`
-
 Tap it to download the code：[Codes](./Codes.zip)
 
 ```c
@@ -637,6 +635,8 @@ ESP32-CAM serves as the host and STC8G1K08 serves as the slave for IIC communica
 `Car_stop();`Car stop function.
 
 **(3).Code**
+
+`Don't copy the code after downloading it, just open it. The library file and the code are in the same folder.`
 
 Tap it to download the code：[Codes](./Codes.zip)
 
