@@ -427,6 +427,8 @@ As can be seen from the schematic diagram, we connect the LED directly to the VC
 
 **(3).Code**
 
+`Don't copy the code after downloading it, just open it. The library file and the code are in the same folder.`
+
 Tap it to download the code：[Codes](./Codes.zip)
 
 ```c
