@@ -242,7 +242,7 @@ static esp_err_t cmd_handler(httpd_req_t *req) {
   //Remote Control
   else if (!strcmp(variable, "flash"))  //LED flashing
   {
-    ledcWrite(7, val);   
+    analogWrite(12, val);   
   } else if (!strcmp(variable, "speed"))  //Speed settings
   {
     if (val > 8) val = 8;

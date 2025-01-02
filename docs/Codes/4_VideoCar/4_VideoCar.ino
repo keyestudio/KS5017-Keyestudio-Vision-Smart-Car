@@ -44,6 +44,8 @@ int maxconnection = 1;  // Only allow one device to connect
 #define HREF_GPIO_NUM 23
 #define PCLK_GPIO_NUM 22
 
+#define LED_GPIO_NUM 12
+
 // Webserver / Controls Function
 void startCameraServer();
 
@@ -102,8 +104,7 @@ void setup() {
   // s->set_vflip(s, 0);
   // s->set_hmirror(s, 0);
 
-  ledcSetup(7, 5000, 8);
-  ledcAttachPin(12, 7);  //IO12 is the LED control pin and cannot be changed.
+  pinMode(LED_GPIO_NUM,OUTPUT);
 
   if (!ap) {
     // Connect to Router
@@ -133,9 +134,9 @@ void setup() {
 
   //Flash LED as ready indicator
   for (int i = 0; i < 5; i++) {
-    ledcWrite(7, 0);  // flash led
+    analogWrite(LED_GPIO_NUM, 0);  // flash led
     delay(200);
-    ledcWrite(7, 255);
+    analogWrite(LED_GPIO_NUM, 255);
     delay(200);
   }
 

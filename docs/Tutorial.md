@@ -527,88 +527,62 @@ The maximum value of bit is 31. For example, generate a PWM with an 8-bit precis
 
 **Method 1：** 
 
-Use the `analogWrite(Pin,value)；`function，for details, refer to the link：[analogWrite() - Arduino Reference](https://www.arduino.cc/reference/en/language/functions/analog-io/analogwrite/)
+​	Use `analogicWrite (Pin, value)` The function can directly output PWM.
 
-**Method 2：**（Recommended）
+​	Pin：Pin for outputting PWM
 
-Use the `ledcSetup()` function to configure the frequency and resolution of the PWM channel.
+​	value：Output PWM value
 
-```c
-ledcSetup(channel, freq, resolution);
-```
+​	refer to the link：[analogWrite() - Arduino Reference](https://www.arduino.cc/reference/en/language/functions/analog-io/analogwrite/)
 
-- `channel`：PWM channel number to set.
-- `freq`：Frequency of PWM in Hz.
-- `resolution`：Resolution of PWM, that is, the number of bits of PWM.
+**(3).Code**
 
-Use the `ledcAttachPin()` function to connect the PWM channel to the specified pin.
+Tap it to download the code：[Codes](./Codes.zip)
 
 ```c
-ledcAttachPin(pin, channel);
-```
+/*
+  Keyestudio ESP32-CAM Video Smart Car
+  Control the brightness of LED
+  https://www.keyestudio.com
+*/
+#define LED 12  //Define LED as 12 pin
+void setup() {
+  // put your setup code here, to run once:
+  pinMode(LED,OUTPUT); //Set pin mode to output
+}
 
-- `pin`：Pin number to connect.
-- `channel`：PWM channel number to connect to.
-
-Use ledcWrite(channel, dutyCycle); to output pwm
-
-```c
-ledcWrite(channel, dutyCycle);
-```
-
-- `channel`：PWM channel number to use, ranging from 0 to 15.
-
-- `dutyCycle`：The duty cycle of PWM, ranging from 0 to 2^(resolution digits)-1, where resolution is the PWM resolution when calling the `ledcSetup()` function.
-
-  **(3).Code**
-
-  Tap it to download the code：[Codes](./Codes.zip)
-  
-  ```c
-  /*
-    Keyestudio ESP32-CAM Video Smart Car
-    Control the brightness of LED
-    https://www.keyestudio.com
-  */
-  #define LED 12  //Define LED as 12 pin
-  void setup() {
-    // put your setup code here, to run once:
-    ledcSetup(0, 3000, 8);  //Set pwm channel, frequency and accuracy
-    ledcAttachPin(LED, 0);  //Attach the IO port to the ledc channel
+void loop() {
+  // put your main code here, to run repeatedly:
+  for (int i = 0; i < 255; i++) {  //for loop, control i to increase from 0 to 255
+    analogWrite(LED, i);               //output pwm
+    delay(10);
   }
-  
-  void loop() {
-    // put your main code here, to run repeatedly:
-    for (int i = 0; i < 255; i++) {  //for loop, control i to increase from 0 to 255
-      ledcWrite(0, i);               //output pwm
-      delay(10);
-    }
-    for (int i = 255; i > 1; i--) {  //for loop, control i to decrease from 255 to 0
-      ledcWrite(0, i);               //output pwm
-      delay(10);
-    }
+  for (int i = 255; i > 1; i--) {  //for loop, control i to decrease from 255 to 0
+    analogWrite(LED, i);               //output pwm
+    delay(10);
   }
-  
-  ```
-  
-  **(4).Test Result**
-  
-  After the code is uploaded successfully, the LEDs slowly turn from dark to bright and then from bright to dark.
-  
-  **(5).Code Explanation**
-  
-  ```c
-    for (int i = 0; i < 255; i++) {  //for loop, control i to increase from 0 to 255
-      ledcWrite(0, i);               //output pwm
-      delay(10);
-    }
-  ```
-  
-  `for(int i = 0; i < 255; i++)`：`int i = 0` in the bracket is the starting value of the loop, `i < 255` is the loop condition. When the loop condition is not met, the for loop will exit. `i++` will add 1 to the value of i every time it loops. The loop will exit when the value of i reaches 256.
-  
-  `for (int i = 255; i > 1; i--)`：The loop is the opposite of the above, the starting value is 255, `i--` decreases the value of i by 1 every time it loops, and exits the loop when the value of i is 0.
-  
-  For details, refer to the link：[for - Arduino Reference](https://www.arduino.cc/reference/en/language/structure/control-structure/for/)
+}
+
+```
+
+**(4).Test Result**
+
+After the code is uploaded successfully, the LEDs slowly turn from dark to bright and then from bright to dark.
+
+**(5).Code Explanation**
+
+```c
+  for (int i = 0; i < 255; i++) {  //for loop, control i to increase from 0 to 255
+    analogWrite(LED, i);                //output pwm
+    delay(10);
+  }
+```
+
+`for(int i = 0; i < 255; i++)`：`int i = 0` in the bracket is the starting value of the loop, `i < 255` is the loop condition. When the loop condition is not met, the for loop will exit. `i++` will add 1 to the value of i every time it loops. The loop will exit when the value of i reaches 256.
+
+`for (int i = 255; i > 1; i--)`：The loop is the opposite of the above, the starting value is 255, `i--` decreases the value of i by 1 every time it loops, and exits the loop when the value of i is 0.
+
+For details, refer to the link：[for - Arduino Reference](https://www.arduino.cc/reference/en/language/structure/control-structure/for/)
 
 # 7. Motor Drive Mode
 
@@ -766,6 +740,8 @@ int maxconnection = 1;  // Only allow one device to connect
 #define HREF_GPIO_NUM 23
 #define PCLK_GPIO_NUM 22
 
+#define LED_GPIO_NUM 12
+
 // Webserver / Controls Function
 void startCameraServer();
 
@@ -824,8 +800,7 @@ void setup() {
   // s->set_vflip(s, 0);
   // s->set_hmirror(s, 0);
 
-  ledcSetup(7, 5000, 8);
-  ledcAttachPin(12, 7);  //IO12 is the LED control pin and cannot be changed.
+  pinMode(LED_GPIO_NUM,OUTPUT);
 
   if (!ap) {
     // Connect to Router
@@ -855,9 +830,9 @@ void setup() {
 
   //Flash LED as ready indicator
   for (int i = 0; i < 5; i++) {
-    ledcWrite(7, 0);  // flash led
+    analogWrite(LED_GPIO_NUM, 0);  // flash led
     delay(200);
-    ledcWrite(7, 255);
+    analogWrite(LED_GPIO_NUM, 255);
     delay(200);
   }
 
